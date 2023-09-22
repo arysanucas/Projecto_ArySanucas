@@ -1,0 +1,308 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+h2 {
+    
+   background-color: #654fa5;
+   border-radius: 20px;
+    color:#ffffff;
+    text-align: center;
+    margin-top: 2%;
+    
+    margin-bottom:10px;
+    font-family:  'Arial Narrow Bold', sans-serif;
+    font-size: 200%;
+    padding: 1%;
+
+
+}
+p{
+    margin-bottom: 3px;
+}
+.container{
+    background-color:#654fa5;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between ;
+    align-items: center;
+    padding: 0px ;
+    margin-bottom: 1%;
+    
+    
+}
+
+.container img{
+    width: 15%;
+}
+
+.container img:hover{
+    background-color:#E76A0C;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    list-style:none;
+    font-family: Georgia;
+    align-items: center;
+    color:#ffffff;
+}
+.menu li{
+    padding: 20px;
+}
+.menu a:hover{
+    background-color: #dbcbfd56;
+    color: #F5BC07;
+    padding:  4px 0px ;
+   /*border-radius: 40px;*/
+    
+}
+
+button{
+    margin-right:20px;
+    color:#41136B;
+    border-color: #FF531B;
+    padding:10px 20px;
+    background-color:#f07400;
+    border-radius: 15px;
+}
+.menu button:hover{
+    
+    
+    color:#FFC600;
+    
+
+}
+.container-info{
+
+   /*background-image: url(unitel_background6jpg.jpg) ;
+    background-repeat:no-repeat ;
+    background-size:cover ;*/
+
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+  
+   
+.container-info img{
+    width:600px;
+    height:500px;
+    box-shadow: 2px 2px  12px black;
+    margin-top: 1.5%;
+    margin-bottom: 4%;
+
+    
+}
+.info-unitel h1{
+    color:#FF531B;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:35px;
+    margin-bottom: 10px;
+    padding:0px 5px;
+    text-align: center ;
+    align-items: center;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+    border-radius: 35px;
+}
+.cadastrar{
+    background-color: #654fa5;
+    padding: 15px 20px;
+    margin-bottom:15px;
+    text-align: center;
+    font-size: 100%;
+}
+.cadastrar:hover{
+    background-color:#17054b;
+    color:#F0AD00;
+}
+.saber{
+    background-color:#FFBB00;
+    border: 1px solid #654fa5;
+    padding: 15px 20px;
+    color: #654fa5;
+    text-align: center;
+    font-size: 100%;
+
+}
+.saber:hover{
+    
+    
+    color:#F0AD00;
+    background-color:#f07400;
+}
+.info-unitel{
+    display:flex;
+    flex-direction: column;
+}
+.planos-unitel{
+    background-image: url(unitel_background9.jpg) ;
+    background-repeat:no-repeat ;
+    background-size:cover ;
+    background-position:top ;
+
+   
+    margin-top:4%;    
+    padding:20px;
+}
+
+#cartoes-unitel{
+    
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px ;
+    
+}
+#cartoes-img{
+    padding:10px;
+}
+ #botao_cartoes  {
+    display: flex;
+    justify-content: center;
+   align-items: center;
+   
+      
+}
+/*botao dos cartoes*/
+
+#botao_cartoes a{
+  color:#41136B;
+  text-decoration: none;
+  padding:15px 15px;
+  border-radius: 35px;
+  
+  
+}
+
+#botao_cartoes a:hover{
+    
+    
+    color:#FFC600;
+    }
+
+#botao{
+    background-color:#FF531B;
+    display: flex;
+    justify-content: center;
+    
+}
+.telef_unitel{
+    background-image: url(unitel_background1.jpg) ;
+    background-repeat:no-repeat ;
+    background-size:cover ;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+   
+}
+#telef_unitel h2{
+   text-align: center;
+}
+
+.Telefones {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 5%;
+}
+
+.botao_telefones{
+    
+    display: flex;
+    justify-content: center;
+   
+}
+
+.botao_telefones a{
+    background-color:#FF531B;
+    color:#41136B;
+   padding: 15px 15px;
+   border-radius: 35px;
+   margin-bottom: 2%;
+   
+}
+
+.botao_telefones a:hover{
+    
+    color:#FFC600;
+    }
+
+
+.cabeçalho{
+    
+   
+    background-color: #41136B;
+    
+    padding: 2%;
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color:#f79095;
+}
+
+
+.link{
+    display: flex;
+    flex-direction: column;
+    color:#f75960;
+    padding: 0%;
+
+}
+.link:hover{
+    color:#f88187;
+}
+
+
+.info1 img {
+   padding:0 5px;
+}
+
+#info1_icones{
+    display: flex;
+    justify-content: center;
+    
+    
+    
+    
+}
+#info1_icones a:hover{
+    
+    
+    padding: 1.5px 0px ;
+    
+    
+}
+
+.letras{
+    background-color:#41136B ;
+    color:#ffffff;
+    display: flex;
+    justify-content: center;
+    padding: 2% 1%;
+    font-family:  Tahoma, sans-serif ;
+    
+   
+    
+}
+
+
+
+
+
+
+
+
+
